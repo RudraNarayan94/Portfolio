@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Leetcode from "./components/Leetcode";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
@@ -18,6 +19,7 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
+        <Leetcode />
         <Technologies />
         <Projects />
         <Experiences />

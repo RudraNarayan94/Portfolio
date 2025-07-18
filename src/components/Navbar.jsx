@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import logo from "../assets/raviKumarLogo.webp";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-
+import logo from "../assets/navLogo.png";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 const navVariants = {
   hidden: { opacity: 0, y: -20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -24,9 +24,9 @@ function Navbar() {
         <motion.img
           src={logo}
           alt="Logo"
-          className="mx-2"
-          width={50}
-          height={33}
+          className="mx-2 w-[100px] h-[66px]"
+          width={100}
+          height={66}
           whileHover={{ rotate: 360 }}
           transition={{ duration: 0.8, type: "spring", stiffness: 200 }}
         />
@@ -45,15 +45,15 @@ function Navbar() {
             label: "GitHub",
           },
           {
-            icon: <FaInstagram />,
-            url: "https://instagram.com/rudra404",
-            label: "Instagram",
+            icon: <SiLeetcode />,
+            url: "https://leetcode.com/u/rudra404",
+            label: "Leetcode",
           },
-          {
-            icon: <FaSquareXTwitter />,
-            url: "https://twitter.com/rudra404",
-            label: "Twitter",
-          },
+          // {
+          //   icon: <FaSquareXTwitter />,
+          //   url: "https://twitter.com/rudra404",
+          //   label: "Twitter",
+          // },
         ].map(({ icon, url, label }, idx) => (
           <motion.a
             key={idx}

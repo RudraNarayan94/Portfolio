@@ -1,7 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/rudraProfilePic.jpg";
 
 const containerVariants = {
   hidden: { opacity: 0 },
