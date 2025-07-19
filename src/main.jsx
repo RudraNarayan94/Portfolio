@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import { motion } from "framer-motion";
 
 const Root = () => {
   const [loading, setLoading] = useState(true);

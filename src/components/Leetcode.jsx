@@ -4,7 +4,8 @@ import { FaShieldAlt } from "react-icons/fa";
 import { GiFlame } from "react-icons/gi";
 
 const Leetcode = () => {
-  const [stats, setStats] = useState({ solved: 0, streak: 0 });
+  const [stats, setStats] = useState(null);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchStats = async () => {
@@ -13,17 +14,36 @@ const Leetcode = () => {
           "https://leetcode-stats-api.herokuapp.com/rudra404"
         );
         const data = await response.json();
-        setStats({
-          solved: data.totalSolved,
-          streak: "500+",
-        });
+        // You can fetch streak separately if you need real data
+        setStats({ solved: data.totalSolved, streak: "500+" });
       } catch (err) {
         console.error("Failed to fetch LeetCode stats", err);
+        setError(true);
       }
     };
 
     fetchStats();
   }, []);
+
+  if (error) {
+    return (
+      <p className="text-center text-red-500 my-20">
+        Unable to load LeetCode stats.
+      </p>
+    );
+  }
+
+  if (!stats) {
+    return (
+      <div className="flex items-center justify-center h-64 my-20">
+        <motion.div
+          className="w-12 h-12 border-4 border-t-orange-500 border-stone-700 rounded-full"
+          animate={{ rotate: 360 }}
+          transition={{ repeat: Infinity, duration: 1, ease: "linear" }}
+        />
+      </div>
+    );
+  }
 
   const { solved, streak } = stats;
 
