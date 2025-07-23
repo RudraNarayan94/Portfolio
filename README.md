@@ -136,7 +136,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Email**: rudranarayan.sahoo94@gmail.com
 - **LinkedIn**: [linkedin.com/in/rudra404](https://linkedin.com/in/rudra404)
 - **GitHub**: [github.com/RudraNarayan94](https://github.com/RudraNarayan94)
-- **LeetCode**: [leetcode.com/u/rudra404](https://leetcode.com/u/rudra404)
 
 ---
 
