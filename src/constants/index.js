@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/project4.jpg";
 import project5 from "../assets/projects/project5.jpg";
 
-export const HERO_CONTENT = `I’m Rudra, a backend enthusiast and competitive programmer who turns data into dependable systems. From crafting  multiplayer platforms to automating medical insights, I blend clean architecture with Python, Django, and FastAPI to solve problems at scale. Dive in to see how I build resilient APIs that make ideas come alive.`;
+export const HERO_CONTENT = `I’m Rudra, a backend enthusiast and competitive programmer who turns data into dependable systems. I blend clean architecture with Python, Django, and FastAPI to solve problems at scale. Dive in to see how I build resilient APIs that make ideas come alive.`;
 
 export const ABOUT_TEXT = `I’m Rudra Narayan Sahoo—a final‑year Computer Science undergrad who lives and breathes backend systems and DevOps magic. In the past two years, I’ve architected and shipped five production‑ready apps—from a real‑time multiplayer typing arena to an AI‑powered lab‑report assistant—using Django, FastAPI, PostgreSQL, Redis, and WebSockets. Beyond code, I’ve containerized pipelines with Docker, automated deployments with GitHub Actions and Terraform, and kept our servers humming with Kubernetes. When I’m not optimizing load balancers or solving LeetCode puzzles, you’ll find me mentoring, exploring the latest cloud tools, or contributing to open‑source.`;
 
