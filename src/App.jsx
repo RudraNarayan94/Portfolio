@@ -21,8 +21,8 @@ function App() {
         <Hero />
         <Leetcode />
         <Technologies />
-        <Projects />
         <Experiences />
+        <Projects />
         <Contact />
       </div>
     </div>
