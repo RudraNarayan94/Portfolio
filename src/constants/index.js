@@ -37,34 +37,50 @@ export const EXPERIENCES = [
   //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
   //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   // },
-  {
-    year: "June 2025 - July 2025",
-    role: "DevOps intern",
-    company: "Ingenious Tech World",
-    description: `At Ingenious Tech World, I stepped into the world of cloud-native infrastructure. Over the course of the internship, I learned how to build, ship, and manage containerized applications using Docker and Kubernetes. I worked closely on setting up CI/CD pipelines with GitHub Actions, and explored infrastructure as code using Terraform. It was here I developed a deep appreciation for scalable, reliable systems—skills I now carry into every project I build.`,
-
-    technologies: [
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "GitHub Actions",
-      "Terraform",
-    ],
-  },
-  {
-    year: "June 2024 - July 2024",
-    role: "Django Developer intern",
-    company: "CodeBeat",
-    description: `My time at CodeBeat was all about turning ideas into real, usable web products. I contributed to building a social media platform, managing user data with Django ORM, and ensuring a seamless flow through Django Templates. Alongside that, I crafted a fully functional quiz application. This experience taught me not just Django, but how to turn complexity into clean, maintainable code.`,
+    {
+    year: "Aug 2025 - Present",
+    role: "Backend Developer Intern",
+    company: "MultiLipi",
+    description: `As a Backend Developer Intern, I focused on system stabilization and scalability for client websites. I significantly improved backend script reliability, resulting in smoother and more consistent page rendering. My work included fixing a large backlog of logged errors, which enhanced overall system stability. I also implemented crucial security checks on load balancers to filter suspicious API traffic and redesigned parts of the database to support multi-language search and global adaptability.`,
     technologies: [
       "Python",
-      "Django",
+      "JavaScript",
       "Django REST Framework",
-      "Django-ORM",
-      "Sqlite",
-      "Django-Templates",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Docker",
     ],
   },
+  // {
+  //   year: "June 2025 - July 2025",
+  //   role: "DevOps intern",
+  //   company: "Ingenious Tech World",
+  //   description: `At Ingenious Tech World, I stepped into the world of cloud-native infrastructure. Over the course of the internship, I learned how to build, ship, and manage containerized applications using Docker and Kubernetes. I worked closely on setting up CI/CD pipelines with GitHub Actions, and explored infrastructure as code using Terraform. It was here I developed a deep appreciation for scalable, reliable systems—skills I now carry into every project I build.`,
+
+  //   technologies: [
+  //     "AWS",
+  //     "Docker",
+  //     "Kubernetes",
+  //     "GitHub Actions",
+  //     "Terraform",
+  //   ],
+  // },
+  // {
+  //   year: "June 2024 - July 2024",
+  //   role: "Django Developer intern",
+  //   company: "CodeBeat",
+  //   description: `My time at CodeBeat was all about turning ideas into real, usable web products. I contributed to building a social media platform, managing user data with Django ORM, and ensuring a seamless flow through Django Templates. Alongside that, I crafted a fully functional quiz application. This experience taught me not just Django, but how to turn complexity into clean, maintainable code.`,
+  //   technologies: [
+  //     "Python",
+  //     "Django",
+  //     "Django REST Framework",
+  //     "Django-ORM",
+  //     "Sqlite",
+  //     "Django-Templates",
+  //   ],
+  // },
 ];
 
 export const PROJECTS = [
