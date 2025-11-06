@@ -69,7 +69,7 @@ function Hero() {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
