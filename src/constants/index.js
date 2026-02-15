@@ -37,19 +37,15 @@ export const EXPERIENCES = [
   //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   // },
     {
-    year: "Aug 2025 - Present",
+    year: "Aug 2025 - Jan 2026",
     role: "Backend Developer Intern",
     company: "MultiLipi",
-    description: `As a Backend Developer Intern, I focused on system stabilization and scalability of the MultiLipi platform. I significantly improved backend scripts reliability, resulting in smoother and more consistent page rendering and iframe loading. My work included fixing a large backlog of logged errors, which enhanced overall system stability. I also redesigned parts of the database to support multi-language search and global adaptability.`,
+    description: `As a Backend Developer , I focused on system stabilization and scalability of the SaaS platform. I significantly improved backend scripts reliability, resulting in smoother and more consistent page rendering and iframe loading. My work included fixing a large backlog of logged errors, which enhanced overall system stability. I engineered various solutions like a content-layer that improves a sites discoverability for AI crawlers, Intelligent HTML parsing engine, advanced load-balancer-level security.`,
     technologies: [
       "Python",
       "JavaScript",
-      "Django REST Framework",
-      "FastAPI",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
+      "Django",
+      "Azure",
     ],
   },
   // {
