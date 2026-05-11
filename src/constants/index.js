@@ -3,8 +3,9 @@ import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/project4.jpg";
 import project5 from "../assets/projects/project5.jpg";
-
-export const HERO_CONTENT = `I’m Rudra, a backend enthusiast and competitive programmer. I am a builder who believes in understanding systems from first principles. I don’t just use tools; I dive deep into how software behaves under real-world constraints to ensure reliability, scalability, and performance.`
+import project0 from "../assets/projects/project0.png";
+export const HERO_CONTENT = 
+`Hello there. I’m Rudra, a backend developer and competitive programmer passionate about building reliable, scalable systems. I enjoy understanding software from first principles rather than treating tools as black boxes. Beyond writing code, I love tinkering with technology, exploring how tools work internally, and deepening my understanding of systems design and architecture. `
 export const ABOUT_TEXT = `I’m Rudra Narayan Sahoo—a final‑year Computer Science undergrad who lives and breathes backend systems and DevOps magic. In the past two years, I’ve architected and shipped five production‑ready apps—from a real‑time multiplayer typing arena to an AI‑powered lab‑report assistant—using Django, FastAPI, PostgreSQL, Redis, and WebSockets. Beyond code, I’ve containerized pipelines with Docker, automated deployments with GitHub Actions and Terraform, and kept our servers humming with Kubernetes. When I’m not optimizing load balancers or solving LeetCode puzzles, you’ll find me mentoring, exploring the latest cloud tools, or contributing to open‑source.`;
 
 export const EXPERIENCES = [
@@ -37,14 +38,28 @@ export const EXPERIENCES = [
   //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   // },
     {
+    year: "Feb 2026 - Present",
+    role: "SDE Intern",
+    company: "Spikewell",
+    // description: ``,
+    // technologies: [
+    //   "Python",
+    //   "JavaScript",
+    //   "Django",
+    //   "Azure",
+    // ],
+  },
+    {
     year: "Aug 2025 - Jan 2026",
     role: "Backend Developer Intern",
     company: "MultiLipi",
-    description: `As a Backend Developer , I focused on system stabilization and scalability of the SaaS platform. I significantly improved backend scripts reliability, resulting in smoother and more consistent page rendering and iframe loading. My work included fixing a large backlog of logged errors, which enhanced overall system stability. I engineered various solutions like a content-layer that improves a sites discoverability for AI crawlers, Intelligent HTML parsing engine, advanced load-balancer-level security.`,
+    description: `Built subdomain and subdirectory based translation microservices using Django and Django REST Framework that serves 1000+ websites globally. I also focused on stabilizing and scaling the SaaS platform. I significantly improved the reliability of backend scripts, resulting in smoother and more consistent page rendering and iframe loading. My work included fixing a large backlog of logged errors and refactoring the codebase to improve scalability and maintainability. Additionally, I engineered key features such as a dynamic layer to improve site discoverability for AI crawlers, a semantic HTML parsing engine, and a translation memory system.`,
     technologies: [
       "Python",
       "JavaScript",
       "Django",
+      "Django REST Framework",
+      "GitHub Actions",
       "Azure",
     ],
   },
@@ -80,6 +95,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Fourio",
+    image: project0,
+    link: "https://github.com/RudraNarayan94/Fourio",
+    description:
+      "A music recognition system inspired by Shazam that identifies songs using audio fingerprinting. Supports local and downloaded tracks, command-line interface, REST APIs, and multiple database support.",
+    technologies: ["FastAPI", "Numpy", "Typer", "Redis", "MongoDB", "ffmpeg", "Spotify API", "YouTube API"],
+  },
+  {
     title: "Master Of Keys",
     image: project1,
     link: "https://github.com/RudraNarayan94/MOK",
@@ -95,13 +118,13 @@ export const PROJECTS = [
       "MurffyLab is a FastAPI-based backend service for the Kinkare medical AI application. It simplifies complex medical reports by providing AI-powered analysis, text-to-speech conversion, and multilingual support.",
     technologies: ["React", "FastAPI", "Pydantic", "Murf.ai", "Twillo"],
   },
-  {
-    title: "Echoes",
-    image: project3,
-    link: "https://github.com/RudraNarayan94/Echoes",
-    description: "A social media platform for sharing pictures and messages.",
-    technologies: ["HTML", "CSS", "Bostrap", "Django"],
-  },
+  // {
+  //   title: "Echoes",
+  //   image: project3,
+  //   link: "https://github.com/RudraNarayan94/Echoes",
+  //   description: "A social media platform for sharing pictures and messages.",
+  //   technologies: ["HTML", "CSS", "Bostrap", "Django"],
+  // },
   {
     title: "Blogbuster",
     image: project4,
