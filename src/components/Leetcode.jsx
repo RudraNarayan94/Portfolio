@@ -11,10 +11,10 @@ const Leetcode = () => {
     const fetchStats = async () => {
       try {
         const response = await fetch(
-          "https://leetcode-stats-api.herokuapp.com/rudra404"
+          "https://leetscan.vercel.app/Rudra404"
         );
         const data = await response.json();
-        setStats({ solved: data.totalSolved, streak: "500+" });
+        setStats({ solved: data.totalSolved, streak: "900+" });
       } catch (err) {
         console.error("Failed to fetch LeetCode stats", err);
         setError(true);

@@ -52,7 +52,7 @@ function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}>
-              Rudra Narayan Sahoo
+              Rudra Narayan
             </motion.h2>
             <motion.span
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
