@@ -41,13 +41,8 @@ export const EXPERIENCES = [
     year: "Feb 2026 - Present",
     role: "SDE Intern",
     company: "Spikewell",
-    // description: ``,
-    // technologies: [
-    //   "Python",
-    //   "JavaScript",
-    //   "Django",
-    //   "Azure",
-    // ],
+      description: `Working on backend systems and product features focused on reliability, maintainability, and deployment-ready delivery.`,
+      technologies: ["Node.js", "Express.js", "FastAPI", "Azure"],
   },
     {
     year: "Aug 2025 - Jan 2026",
